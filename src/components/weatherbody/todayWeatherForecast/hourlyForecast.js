@@ -2,15 +2,14 @@ import { useContext } from "react";
 import { WeatherData } from "../../data/weatherData";
 import logo from "../../../images/cloudy-day-1.svg"; //need to be change --------------s-s-s-s
 import SingleForecast from "./singleForecast";
-import classes from "../../../style/main.module.scss";
 
 const HourlyForecast = () => {
   const { hourlyData } = useContext(WeatherData);
 
   return (
-    <div className={classes["today-forecast-section"]}>
+    <div className="today-forecast-section">
       <h6> Today </h6>
-      <div className={classes["today-forecast-weather"]}>
+      <div className="today-forecast-weather">
         {hourlyData &&
           hourlyData.map((item, index) => (
             <SingleForecast

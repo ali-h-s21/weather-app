@@ -1,5 +1,3 @@
-import classes from "../../style/main.module.scss";
-
 import { useContext } from "react";
 import { WeatherData } from "../data/weatherData";
 import SingleForecast from "./todayWeatherForecast/singleForecast";
@@ -8,7 +6,7 @@ const ForecastSection = () => {
   const { dailyForecast } = useContext(WeatherData);
 
   return (
-    <div className={classes["forecast-section"]}>
+    <div className="forecast-section">
       {dailyForecast &&
         dailyForecast.map((item, index) => (
           <SingleForecast

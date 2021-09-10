@@ -3,6 +3,7 @@ import Header from "./components/header";
 import WeatherBody from "./components/weatherbody";
 import WeatherHeader from "./components/weatherHeader/weatherHeader";
 import { WeatherDataProvider } from "./components/data/weatherData";
+import "./style/main.scss";
 
 function App() {
   return (

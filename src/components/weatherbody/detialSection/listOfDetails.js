@@ -1,15 +1,14 @@
 import { useContext } from "react";
-import classes from "../../../style/main.module.scss";
 import DetailCard from "./detailCard";
 import { WeatherData } from "../../data/weatherData";
 const ListOfDetails = () => {
   const { todayWeatherData } = useContext(WeatherData);
 
   return (
-    <div className={classes["details-section"]}>
+    <div className="details-section">
       <h6> details</h6>
 
-      <div className={classes["details"]}>
+      <div className="details">
         {todayWeatherData &&
           Object.keys(todayWeatherData.details).map((key, index) => (
             <DetailCard

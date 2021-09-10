@@ -1,7 +1,6 @@
 import { useContext, useState } from "react";
 import { WeatherData } from "../data/weatherData";
 import WeatherMainInfo from "./weatherMainInfo";
-import classes from "../../style/main.module.scss";
 
 function WeatherHeader() {
   const { todayWeatherData, units, isloading } = useContext(WeatherData);
@@ -11,15 +10,11 @@ function WeatherHeader() {
   // }
 
   return (
-    <div className={classes["weather-header"]}>
+    <div className="weather-header">
       <WeatherMainInfo
-        boxStyle={classes["location"]}
-        firstChildStyle={`${
-          isloading ? classes["loading-city"] : classes["city"]
-        }`}
-        secChildStyle={`${
-          isloading ? classes["loading-country"] : classes["contury"]
-        }`}
+        boxStyle="location"
+        firstChildStyle={`${isloading ? "loading-city" : "city"}`}
+        secChildStyle={`${isloading ? "loading-country" : "contury"}`}
         firstInfo={todayWeatherData && todayWeatherData.main.cityName}
         secInfo={todayWeatherData && todayWeatherData.main.country}
       />
