@@ -1,0 +1,67 @@
+.today-forecast-section {
+  padding: 0.5rem 0.6rem;
+
+  & img {
+    width: 2.8rem;
+  }
+
+  & h6 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0.5rem 0.4rem 0;
+    color: #8a9bae;
+    letter-spacing: 1px;
+  }
+
+  & .today-forecast-weather {
+    border-radius: 1rem;
+    color: #e1e6ec;
+    display: flex;
+    padding: 1rem;
+    overflow-x: auto;
+    white-space: nowrap;
+    text-align: center;
+
+    & div {
+      margin-right: 2rem;
+      padding: 0.1rem;
+
+      // time text
+      & p:first-child {
+        margin-bottom: 0.3rem;
+      }
+      // degree text
+      & p:last-child {
+        letter-spacing: 1px;
+        padding-left: 0.5rem;
+        font-size: 1.1rem;
+        margin-top: 0.1rem;
+        font-weight: 600;
+      }
+      & p {
+        text-align: center;
+      }
+    }
+    & div:last-child {
+      margin: 0;
+    }
+
+    // this element's scrollbar
+    &::-webkit-scrollbar {
+      height: 3px;
+    }
+  }
+
+  // separating line
+  & hr {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1rem;
+    height: 1px;
+    border: none;
+    background-color: rgb(128, 127, 127);
+    width: 80%;
+  }
+}

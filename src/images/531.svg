@@ -1,0 +1,122 @@
+<svg id="rainy-3" width="45" height="40" viewBox="0 0 50 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="paint0_linear" x1="8" y1="5.5" x2="27" y2="23" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3D26A7" />
+            <stop offset="0.723868" stop-color="#1B0D57" />
+        </linearGradient>
+        <linearGradient id="paint1_linear" x1="11.3795" y1="26.377" x2="9.99035" y2="34.2555"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="1" stop-color="#FA00FF" />
+        </linearGradient>
+        <linearGradient id="paint2_linear" x1="15.666" y1="25.102" x2="14.2769" y2="32.9805"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="1" stop-color="#FA00FF" />
+        </linearGradient>
+        <linearGradient id="paint3_linear" x1="19.4316" y1="26.7814" x2="18.0425" y2="34.6599"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="1" stop-color="#FA00FF" />
+        </linearGradient>
+
+
+
+
+
+        <style type="text/css">
+            <![CDATA[
+            /*
+** RAIN
+*/
+            @keyframes am-weather-rain {
+                0% {
+                    stroke-dashoffset: 0;
+                }
+
+                100% {
+                    stroke-dashoffset: -100;
+                }
+            }
+
+            .am-weather-rain-1 {
+                -webkit-animation-name: am-weather-rain;
+                -moz-animation-name: am-weather-rain;
+                -ms-animation-name: am-weather-rain;
+                animation-name: am-weather-rain;
+                -webkit-animation-duration: 8s;
+                -moz-animation-duration: 8s;
+                -ms-animation-duration: 8s;
+                animation-duration: 8s;
+                -webkit-animation-timing-function: linear;
+                -moz-animation-timing-function: linear;
+                -ms-animation-timing-function: linear;
+                animation-timing-function: linear;
+                -webkit-animation-iteration-count: infinite;
+                -moz-animation-iteration-count: infinite;
+                -ms-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+            }
+
+            .am-weather-rain-2 {
+                -webkit-animation-name: am-weather-rain;
+                -moz-animation-name: am-weather-rain;
+                -ms-animation-name: am-weather-rain;
+                animation-name: am-weather-rain;
+                -webkit-animation-delay: 0.25s;
+                -moz-animation-delay: 0.25s;
+                -ms-animation-delay: 0.25s;
+                animation-delay: 0.25s;
+                -webkit-animation-duration: 8s;
+                -moz-animation-duration: 8s;
+                -ms-animation-duration: 8s;
+                animation-duration: 8s;
+                -webkit-animation-timing-function: linear;
+                -moz-animation-timing-function: linear;
+                -ms-animation-timing-function: linear;
+                animation-timing-function: linear;
+                -webkit-animation-iteration-count: infinite;
+                -moz-animation-iteration-count: infinite;
+                -ms-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+            }
+            ]]>
+        </style>
+
+
+
+
+    </defs>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <g id="rainy-3">
+        <g id="cloud-Group">
+            <g id="cloud">
+                <path id="Vector"
+                    d="M31.7 14.4C31.7 9.8 28 6.2 23.5 6.2C22.5 6.2 21.6 6.4 20.7 6.7C20.4 3.3 17.6 0.5 14.1 0.5C10.4 0.5 7.40001 3.5 7.40001 7.2C7.40001 8 7.6 8.8 7.8 9.5C7.5 9.4 7.1 9.4 6.8 9.4C3.1 9.4 0.100006 12.4 0.100006 16.1C0.100006 19.7 3.00001 22.7 6.60001 22.8H23.8C28.2 22.3 31.7 18.8 31.7 14.4Z"
+                    fill="url(#paint0_linear)" />
+            </g>
+        </g>
+        <g id="rain-drops">
+            <path id="Vector_2" d="M10.8871 26.2902L9.49795 34.1687" stroke="url(#paint1_linear)" stroke-width="2"
+                stroke-linecap="round" stroke-dasharray="4 4" class="am-weather-rain-1" />
+            <path id="Vector_3" d="M15.1736 25.0152L13.7845 32.8937" stroke="url(#paint2_linear)" stroke-width="2"
+                stroke-linecap="round" stroke-dasharray="4 4" class="am-weather-rain-2"/>
+            <path id="Vector_4" d="M18.9392 26.6946L17.5501 34.5731" stroke="url(#paint3_linear)" stroke-width="2"
+                stroke-linecap="round" stroke-dasharray="4 4"  class="am-weather-rain-1"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="11d">
+<g id="thunder">
+<g id="Group">
+<g id="clouds">
+<g id="back-cloud">
+<path id="Vector" d="M13.26 5.17C13.26 3.79 12.15 2.71 10.8 2.71C10.5 2.71 10.23 2.77 9.96001 2.86C9.87001 1.84 9.03001 1 7.98001 1C6.87001 1 5.97001 1.9 5.97001 3.01C5.97001 3.25 6.03001 3.49 6.09001 3.7C6.00001 3.67 5.88001 3.67 5.79001 3.67C4.68001 3.67 3.78001 4.57 3.78001 5.68C3.78001 6.76 4.65001 7.66 5.73001 7.69H10.89C12.21 7.54 13.26 6.49 13.26 5.17Z" fill="url(#paint0_linear)"/>
+</g>
+<g id="front-cloud">
+<path id="Vector_2" d="M17.8 9.74999C17.8 7.44999 15.95 5.64999 13.7 5.64999C13.2 5.64999 12.75 5.74999 12.3 5.89999C12.15 4.19999 10.75 2.79999 9 2.79999C7.15 2.79999 5.65 4.29999 5.65 6.14999C5.65 6.54999 5.75 6.94999 5.85 7.29999C5.7 7.24999 5.5 7.24999 5.35 7.24999C3.5 7.24999 2 8.74999 2 10.6C2 12.4 3.45 13.9 5.25 13.95H13.85C16.05 13.7 17.8 11.95 17.8 9.74999Z" fill="url(#paint1_linear)"/>
+</g>
+</g>
+<g id="lightning">
+<path id="Vector_3" d="M8.53532 11H11.51L9.54287 14.4766H11.414L7.19191 19.45L8.82319 15.732H7L8.53532 11Z" fill="url(#paint2_linear)"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="6.20001" y1="3.3" x2="10.7" y2="7.3" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3D26A7"/>
+<stop offset="0.784458" stop-color="#1B0D57"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="10.2" y1="14.3" x2="9.95" y2="4.29999" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3D26A7"/>
+<stop offset="1" stop-color="#1B0D57"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="8.47135" y1="11.1931" x2="8.87628" y2="18.2345" gradientUnits="userSpaceOnUse">
+<stop offset="0.0780654" stop-color="#0094FF"/>
+<stop offset="1" stop-color="#FA00FF"/>
+</linearGradient>
+</defs>
+</svg>

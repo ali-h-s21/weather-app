@@ -1,0 +1,24 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="04d">
+<g id="cloudy">
+<g id="Group">
+<g id="back-cloud">
+<path id="Vector" d="M13.26 8.37107C13.26 7.09 12.15 6.08742 10.8 6.08742C10.5 6.08742 10.23 6.14312 9.96 6.22667C9.87 5.27979 9.03 4.5 7.98 4.5C6.87 4.5 5.97 5.33548 5.97 6.36591C5.97 6.58871 6.03 6.8115 6.09 7.00645C6 6.9786 5.88 6.9786 5.79 6.9786C4.68 6.9786 3.78 7.81408 3.78 8.84451C3.78 9.8471 4.65 10.6826 5.73 10.7105H10.89C12.21 10.5712 13.26 9.59645 13.26 8.37107Z" fill="url(#paint0_linear)"/>
+</g>
+<g id="front-cloud">
+<path id="Vector_2" d="M17.8 13.551C17.8 11.4159 15.95 9.74499 13.7 9.74499C13.2 9.74499 12.75 9.83779 12.3 9.97704C12.15 8.39892 10.75 7.09927 9 7.09927C7.15 7.09927 5.65 8.49175 5.65 10.2091C5.65 10.5804 5.75 10.9518 5.85 11.2767C5.7 11.2303 5.5 11.2303 5.35 11.2303C3.5 11.2303 2 12.6227 2 14.3401C2 16.0111 3.45 17.4036 5.25 17.45H13.85C16.05 17.2179 17.8 15.5933 17.8 13.551Z" fill="url(#paint1_linear)"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="6" y1="6.25" x2="11.25" y2="10.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3D26A7"/>
+<stop offset="0.548468" stop-color="#1B0D57"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="6.25" y1="9.49999" x2="14.5" y2="17" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3D26A7"/>
+<stop offset="0.691275" stop-color="#1B0D57"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,234 @@
+<svg id="snowy3" width="45" height="40" viewBox="0 0 50 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+
+
+          <defs>
+        <linearGradient id="paint0_linear" x1="8.89999" y1="3.5" x2="23.4" y2="21" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3D26A7" />
+            <stop offset="0.641373" stop-color="#1B0D57" />
+        </linearGradient>
+        <linearGradient id="paint1_linear" x1="9" y1="23" x2="9" y2="28" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="1" stop-color="#FA00FF" />
+        </linearGradient>
+        <linearGradient id="paint2_linear" x1="10.6213" y1="24.0858" x2="7.08578" y2="27.6213"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="1" stop-color="#FA00FF" />
+        </linearGradient>
+        <linearGradient id="paint3_linear" x1="11" y1="26" x2="6" y2="26" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="1" stop-color="#FA00FF" />
+        </linearGradient>
+        <linearGradient id="paint4_linear" x1="9.91421" y1="27.6213" x2="6.37867" y2="24.0858"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="1" stop-color="#FA00FF" />
+        </linearGradient>
+        <linearGradient id="paint5_linear" x1="17" y1="23" x2="17" y2="28" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="1" stop-color="#FA00FF" />
+        </linearGradient>
+        <linearGradient id="paint6_linear" x1="18.6213" y1="24.0858" x2="15.0858" y2="27.6213"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="1" stop-color="#FA00FF" />
+        </linearGradient>
+        <linearGradient id="paint7_linear" x1="19" y1="26" x2="14" y2="26" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="1" stop-color="#FA00FF" />
+        </linearGradient>
+        <linearGradient id="paint8_linear" x1="17.9142" y1="27.6213" x2="14.3787" y2="24.0858"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="1" stop-color="#FA00FF" />
+        </linearGradient>
+        <linearGradient id="paint9_linear" x1="24" y1="23" x2="24" y2="28" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="1" stop-color="#FA00FF" />
+        </linearGradient>
+        <linearGradient id="paint10_linear" x1="25.6213" y1="24.0858" x2="22.0858" y2="27.6213"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="1" stop-color="#FA00FF" />
+        </linearGradient>
+        <linearGradient id="paint11_linear" x1="26" y1="26" x2="21" y2="26" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="1" stop-color="#FA00FF" />
+        </linearGradient>
+        <linearGradient id="paint12_linear" x1="24.9142" y1="27.6213" x2="21.3787" y2="24.0858"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="1" stop-color="#FA00FF" />
+        </linearGradient>
+
+
+        <style type="text/css">
+            <![CDATA[
+            /*
+** CLOUDS
+*/
+            @keyframes am-weather-cloud-2 {
+                0% {
+                    -webkit-transform: translate(0px, 0px);
+                    -moz-transform: translate(0px, 0px);
+                    -ms-transform: translate(0px, 0px);
+                    transform: translate(0px, 0px);
+                }
+
+                50% {
+                    -webkit-transform: translate(2px, 0px);
+                    -moz-transform: translate(2px, 0px);
+                    -ms-transform: translate(2px, 0px);
+                    transform: translate(2px, 0px);
+                }
+
+                100% {
+                    -webkit-transform: translate(0px, 0px);
+                    -moz-transform: translate(0px, 0px);
+                    -ms-transform: translate(0px, 0px);
+                    transform: translate(0px, 0px);
+                }
+            }
+
+            .am-weather-cloud-2 {
+                -webkit-animation-name: am-weather-cloud-2;
+                -moz-animation-name: am-weather-cloud-2;
+                animation-name: am-weather-cloud-2;
+                -webkit-animation-duration: 3s;
+                -moz-animation-duration: 3s;
+                animation-duration: 3s;
+                -webkit-animation-timing-function: linear;
+                -moz-animation-timing-function: linear;
+                animation-timing-function: linear;
+                -webkit-animation-iteration-count: infinite;
+                -moz-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+            }
+
+            /*
+** SNOW
+*/
+            @keyframes am-weather-snow {
+                0% {
+                    -webkit-transform: translateX(0) translateY(0);
+                    -moz-transform: translateX(0) translateY(0);
+                    -ms-transform: translateX(0) translateY(0);
+                    transform: translateX(0) translateY(0);
+                }
+
+                33.33% {
+                    -webkit-transform: translateX(-1.2px) translateY(2px);
+                    -moz-transform: translateX(-1.2px) translateY(2px);
+                    -ms-transform: translateX(-1.2px) translateY(2px);
+                    transform: translateX(-1.2px) translateY(2px);
+                }
+
+                66.66% {
+                    -webkit-transform: translateX(1.4px) translateY(4px);
+                    -moz-transform: translateX(1.4px) translateY(4px);
+                    -ms-transform: translateX(1.4px) translateY(4px);
+                    transform: translateX(1.4px) translateY(4px);
+                    opacity: 1;
+                }
+
+                100% {
+                    -webkit-transform: translateX(-1.6px) translateY(6px);
+                    -moz-transform: translateX(-1.6px) translateY(6px);
+                    -ms-transform: translateX(-1.6px) translateY(6px);
+                    transform: translateX(-1.6px) translateY(6px);
+                    opacity: 0;
+                }
+            }
+
+            .am-weather-snow-1 {
+                -webkit-animation-name: am-weather-snow;
+                -moz-animation-name: am-weather-snow;
+                -ms-animation-name: am-weather-snow;
+                animation-name: am-weather-snow;
+                -webkit-animation-duration: 2s;
+                -moz-animation-duration: 2s;
+                -ms-animation-duration: 2s;
+                animation-duration: 2s;
+                -webkit-animation-timing-function: linear;
+                -moz-animation-timing-function: linear;
+                -ms-animation-timing-function: linear;
+                animation-timing-function: linear;
+                -webkit-animation-iteration-count: infinite;
+                -moz-animation-iteration-count: infinite;
+                -ms-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+            }
+
+
+            .am-weather-snow-2 {
+                -webkit-animation-name: am-weather-snow;
+                -moz-animation-name: am-weather-snow;
+                -ms-animation-name: am-weather-snow;
+                animation-name: am-weather-snow;
+                -webkit-animation-delay: 1.2s;
+                -moz-animation-delay: 1.2s;
+                -ms-animation-delay: 1.2s;
+                animation-delay: 1.2s;
+                -webkit-animation-duration: 2s;
+                -moz-animation-duration: 2s;
+                -ms-animation-duration: 2s;
+                animation-duration: 2s;
+                -webkit-animation-timing-function: linear;
+                -moz-animation-timing-function: linear;
+                -ms-animation-timing-function: linear;
+                animation-timing-function: linear;
+                -webkit-animation-iteration-count: infinite;
+                -moz-animation-iteration-count: infinite;
+                -ms-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+            }
+            ]]>
+        </style>
+    </defs>
+
+
+
+
+
+
+    <g id="snowy-3">
+        <g id="Group">
+            <g id="cloud" class="am-weather-cloud-2">
+                <path id="Vector"
+                    d="M31.6 13.9C31.6 9.3 27.9 5.7 23.4 5.7C22.4 5.7 21.5 5.9 20.6 6.2C20.3 2.8 17.5 0 14 0C10.3 0 7.3 3 7.3 6.7C7.3 7.5 7.5 8.3 7.7 9C7.4 8.9 7 8.9 6.7 8.9C3 8.9 0 11.9 0 15.6C0 19.2 2.9 22.2 6.5 22.3H23.7C28.1 21.8 31.6 18.3 31.6 13.9Z"
+                    fill="url(#paint0_linear)" />
+            </g>
+            <g id="snow-Group">
+                <g id="snow-3" class="am-weather-snow-1">
+                    <path id="Vector_2" d="M8.5 23V28" stroke="url(#paint1_linear)" stroke-width="1.2"
+                        stroke-linecap="round" />
+                    <path id="Vector_3" d="M10.2678 23.7322L6.73223 27.2678" stroke="url(#paint2_linear)"
+                        stroke-linecap="round" />
+                    <path id="Vector_4" d="M11 25.5H6" stroke="url(#paint3_linear)" stroke-linecap="round" />
+                    <path id="Vector_5" d="M10.2678 27.2678L6.73223 23.7322" stroke="url(#paint4_linear)"
+                        stroke-linecap="round" />
+                </g>
+                <g id="snow-2" class="am-weather-snow-2">
+                    <path id="Vector_6" d="M16.5 23V28" stroke="url(#paint5_linear)" stroke-width="1.2"
+                        stroke-linecap="round" />
+                    <path id="Vector_7" d="M18.2678 23.7322L14.7322 27.2678" stroke="url(#paint6_linear)"
+                        stroke-linecap="round" />
+                    <path id="Vector_8" d="M19 25.5H14" stroke="url(#paint7_linear)" stroke-linecap="round" />
+                    <path id="Vector_9" d="M18.2678 27.2678L14.7322 23.7322" stroke="url(#paint8_linear)"
+                        stroke-linecap="round" />
+                </g>
+                <g id="snow-1" class="am-weather-snow-1">
+                    <path id="Vector_10" d="M23.5 23V28" stroke="url(#paint9_linear)" stroke-width="1.2"
+                        stroke-linecap="round" />
+                    <path id="Vector_11" d="M25.2678 23.7322L21.7322 27.2678" stroke="url(#paint10_linear)"
+                        stroke-linecap="round" />
+                    <path id="Vector_12" d="M26 25.5H21" stroke="url(#paint11_linear)" stroke-linecap="round" />
+                    <path id="Vector_13" d="M25.2678 27.2678L21.7322 23.7322" stroke="url(#paint12_linear)"
+                        stroke-linecap="round" />
+                </g>
+            </g>
+        </g>
+    </g>
+  
+</svg>

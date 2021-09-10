@@ -1,0 +1,49 @@
+.details-section {
+  //   background-color: lightblue;
+  padding: 0 1rem 2rem 1rem;
+  margin-top: 2rem;
+  & h6 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #8a9bae;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+  }
+
+  & .details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  & .card {
+    background-color: $dark-blue-1000;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+
+    &:first-child {
+      grid-column: 1/3;
+    }
+
+    & .card-heading {
+      //   background-color: lightcoral;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      & img {
+        width: 30px;
+        height: 30px;
+      }
+      & .detail-title {
+      }
+    }
+  }
+}
