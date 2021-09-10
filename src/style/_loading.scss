@@ -1,11 +1,32 @@
+@mixin loading-box($width, $height, $margin, $marginValue, $radius) {
+  #{margin}: $marginValue;
+  background: #ababab;
+  width: $width;
+  height: $height;
+  border-radius: $radius;
+}
 .loading-city {
-  height: 2rem;
-  width: 4rem;
-  background-color: gray;
+  @include loading-box(55%, 2rem, margin, 0, 0.2rem);
 }
 .loading-country {
-  margin-top: 0.5rem;
-  height: 1rem;
-  width: 2rem;
-  background-color: rgb(192, 189, 189);
+  @include loading-box(2rem, 1rem, margin-top, 0.3rem, 0.1rem);
+}
+.loading-degree {
+  @include loading-box(55%, 3rem, margin, 0 5rem 0.3rem 0, 0.1rem);
+}
+.loading-condition {
+  @include loading-box(30%, 1rem, margin, 0 5rem 0rem 0, 0.1rem);
+}
+.loading-img {
+  @include loading-box(5rem, 5rem, margin-left, 2rem, 0.5rem);
+}
+
+.loading-hour-forecast {
+  @include loading-box(3rem, 4rem, margin-right, 0, 0.1rem);
+}
+.loading-day-forecast {
+  height: 0rem;
+  @include loading-box(100%, 0rem, margin-bottom, 0.5rem, 0.5rem);
+}
+.loading-weather-detail {
 }

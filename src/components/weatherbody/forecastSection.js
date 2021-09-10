@@ -1,13 +1,19 @@
 import { useContext } from "react";
 import { WeatherData } from "../data/weatherData";
 import SingleForecast from "./todayWeatherForecast/singleForecast";
+import LoadingEle from "../loadingEle.js";
 
 const ForecastSection = () => {
-  const { dailyForecast } = useContext(WeatherData);
+  const { dailyForecast, isloading } = useContext(WeatherData);
+  const numOfLoadingEle = Array.from(Array(8).keys());
 
   return (
     <div className="forecast-section">
-      {dailyForecast &&
+      {isloading &&
+        numOfLoadingEle.map((ele) => (
+          <LoadingEle style="loading-day-forecast" />
+        ))}
+      {!isloading &&
         dailyForecast.map((item, index) => (
           <SingleForecast
             key={index}

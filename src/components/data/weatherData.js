@@ -10,9 +10,9 @@ export const WeatherData = createContext({});
 export function WeatherDataProvider(props) {
   const testKey = "f6694629600c07e9b0824433f7ba1497";
   const [isloading, setIsLoading] = useState(true);
-  const [todayWeatherData, setTodayWeatherData] = useState(null);
-  const [dailyForecast, setDailyForecast] = useState(null);
-  const [hourlyData, setHourlyData] = useState(null);
+  const [todayWeatherData, setTodayWeatherData] = useState("");
+  const [dailyForecast, setDailyForecast] = useState("");
+  const [hourlyData, setHourlyData] = useState("");
   const [city, setCity] = useState("london");
   const [units, setUnits] = useState("metric");
 
@@ -26,6 +26,10 @@ export function WeatherDataProvider(props) {
         const coord = await coordRespon.json();
         if (coord.length > 0) {
           setIsLoading(true);
+          setTodayWeatherData("");
+          setHourlyData("");
+          setDailyForecast("");
+
           const respon = await fetch(
             `https://api.openweathermap.org/data/2.5/onecall?lat=${coord[0].lat}&lon=${coord[0].lon}&appid=${testKey}&units=${units}`
           );
@@ -41,7 +45,7 @@ export function WeatherDataProvider(props) {
           setIsLoading(false);
         } else {
           console.log(coord);
-          alert("city NOt found");
+          alert("city NOT found");
         }
       } catch (err) {
         console.error(err);
