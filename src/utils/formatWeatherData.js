@@ -18,7 +18,7 @@ export function fromattTodayWeather(data, coord, units) {
     main: {
       cityName: coord[0].name,
       country: coord[0].country,
-      temp: Math.round(data.temp),
+      temp: ` ${Math.round(data.temp)} ${units === "imperial" ? "F°" : "C°"}`,
       icon: data.weather[0].icon,
       condition: data.weather[0].main,
     },

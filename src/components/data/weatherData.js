@@ -6,9 +6,8 @@ import {
 } from "../../utils/formatWeatherData";
 
 export const WeatherData = createContext({});
-
 export function WeatherDataProvider(props) {
-  const testKey = "f6694629600c07e9b0824433f7ba1497";
+  const apiKey = process.env.REACT_APP_API_KEY;
   const [isloading, setIsLoading] = useState(true);
   const [todayWeatherData, setTodayWeatherData] = useState("");
   const [dailyForecast, setDailyForecast] = useState("");
@@ -20,18 +19,20 @@ export function WeatherDataProvider(props) {
     async function fetchTodayWeather() {
       try {
         const coordRespon = await fetch(
-          `https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=f6694629600c07e9b0824433f7ba1497`
+          `https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${apiKey}`
         );
-
         const coord = await coordRespon.json();
+
         if (coord.length > 0) {
+          // if found the entered city
+          localStorage.setItem("lastSucssesfullSearch", city);
           setIsLoading(true);
           setTodayWeatherData("");
           setHourlyData("");
           setDailyForecast("");
 
           const respon = await fetch(
-            `https://api.openweathermap.org/data/2.5/onecall?lat=${coord[0].lat}&lon=${coord[0].lon}&appid=${testKey}&units=${units}`
+            `https://api.openweathermap.org/data/2.5/onecall?lat=${coord[0].lat}&lon=${coord[0].lon}&appid=${apiKey}&units=${units}`
           );
           const data = await respon.json();
 
@@ -44,7 +45,7 @@ export function WeatherDataProvider(props) {
           setDailyForecast(formattedDailyForecast);
           setIsLoading(false);
         } else {
-          console.log(coord);
+          setCity(localStorage.getItem("lastSucssesfullSearch"));
           alert("city NOT found");
         }
       } catch (err) {
@@ -53,7 +54,7 @@ export function WeatherDataProvider(props) {
     }
 
     fetchTodayWeather();
-  }, [city, units]);
+  }, [city, units, apiKey]);
 
   return (
     <WeatherData.Provider

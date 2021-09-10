@@ -1,4 +1,4 @@
 const LoadingEle = (props) => (
-  <div className={props.style}>{props.children}</div>
+  <div className={props.styleClass}>{props.children}</div>
 );
 export default LoadingEle;

@@ -10,8 +10,8 @@ const ForecastSection = () => {
   return (
     <div className="forecast-section">
       {isloading &&
-        numOfLoadingEle.map((ele) => (
-          <LoadingEle style="loading-day-forecast" />
+        numOfLoadingEle.map((ele, index) => (
+          <LoadingEle styleClass="loading-day-forecast" key={index} />
         ))}
       {!isloading &&
         dailyForecast.map((item, index) => (

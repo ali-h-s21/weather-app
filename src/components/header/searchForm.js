@@ -25,7 +25,7 @@ function SearchForm() {
           onChange={onTypeHanler}
         />
         <button type="submit" className="searchButton">
-          <img src="/images/icons/search-icon.svg" />
+          <img src="/images/icons/search-icon.svg" alt="" />
         </button>
       </div>
     </form>

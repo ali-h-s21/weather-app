@@ -5,7 +5,7 @@ import WeatherHeaderImg from "./header-img";
 import LoadingEle from "../loadingEle.js";
 
 function WeatherHeader() {
-  const { todayWeatherData, units, isloading } = useContext(WeatherData);
+  const { todayWeatherData, isloading } = useContext(WeatherData);
 
   return (
     <div className="weather-header">
@@ -24,9 +24,7 @@ function WeatherHeader() {
             boxStyle="deg-status"
             firstChildStyle="deg"
             secChildStyle="status"
-            firstInfo={`${todayWeatherData.main.temp} ${
-              units === "imperial" ? "F°" : "C°"
-            }`}
+            firstInfo={`${todayWeatherData.main.temp} `}
             secInfo={todayWeatherData.main.condition}
           />
           <WeatherHeaderImg icon={todayWeatherData.main.icon} />
@@ -37,19 +35,19 @@ function WeatherHeader() {
       {isloading && (
         <>
           {/* city & country */}
-          <LoadingEle style="location">
-            <LoadingEle style="loading-city" />
-            <LoadingEle style="loading-country" />
+          <LoadingEle styleClass="location">
+            <LoadingEle styleClass="loading-city" />
+            <LoadingEle styleClass="loading-country" />
           </LoadingEle>
 
           {/* degree & condition */}
-          <LoadingEle style="deg-status">
-            <LoadingEle style="loading-degree" />
-            <LoadingEle style="loading-condition" />
+          <LoadingEle styleClass="deg-status">
+            <LoadingEle styleClass="loading-degree" />
+            <LoadingEle styleClass="loading-condition" />
           </LoadingEle>
 
           {/* icon */}
-          <LoadingEle style="loading-img" />
+          <LoadingEle styleClass="loading-img" />
         </>
       )}
     </div>

@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import { WeatherData } from "../../data/weatherData";
-import logo from "../../../images/cloudy-day-1.svg"; //need to be change --------------s-s-s-s
 import SingleForecast from "./singleForecast";
 import LoadingEle from "../../loadingEle.js";
 
@@ -14,8 +13,8 @@ const HourlyForecast = () => {
       <h6> Today </h6>
       <div className="today-forecast-weather">
         {isloading &&
-          loadingElements.map((ele) => (
-            <LoadingEle style="loading-hour-forecast" />
+          loadingElements.map((ele, index) => (
+            <LoadingEle styleClass="loading-hour-forecast" key={index} />
           ))}
 
         {!isloading &&
