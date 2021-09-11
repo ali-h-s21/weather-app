@@ -9,7 +9,7 @@ function fromUnixToHours(date, includeMinutes) {
 function fromUnixToweekDays(date) {
   return format(fromUnixTime(date), "EEEE");
 }
-function fromMeterToKm(m) {
+function meterSecToKmH(m) {
   return parseFloat(m * 3.6).toFixed(2);
 }
 
@@ -28,7 +28,7 @@ export function fromattTodayWeather(data, coord, units) {
       wind: `${
         units === "imperial"
           ? `${data.wind_speed} miles/h`
-          : `${fromMeterToKm(data.wind_speed)} km/h`
+          : `${meterSecToKmH(data.wind_speed)} km/h`
       }`,
       humidity: `${data.humidity}%`,
       pressure: `${data.pressure} hPa`,

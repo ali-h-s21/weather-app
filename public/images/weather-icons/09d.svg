@@ -1,34 +1,105 @@
 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="09d">
-<g id="rainy-3">
-<g id="rain-drops">
-<path id="Vector_2" d="M7.55566 13.5737L7 17.1191" stroke="url(#paint0_linear)" stroke-linecap="round" stroke-dasharray="3.6 3.6"/>
-<path id="Vector_3" d="M9.27025 13L8.71461 16.5453" stroke="url(#paint1_linear)" stroke-linecap="round" stroke-dasharray="3.6 3.6"/>
-<path id="Vector_4" d="M10.7765 13.7557L10.2209 17.3011" stroke="url(#paint2_linear)" stroke-linecap="round" stroke-dasharray="3.6 3.6"/>
-</g>
-<g id="cloud-Group">
-<g id="cloud">
-<path id="Vector" d="M17.8 8.8565C17.8 6.58744 15.95 4.81166 13.7 4.81166C13.2 4.81166 12.75 4.91031 12.3 5.0583C12.15 3.38117 10.75 2 9 2C7.15 2 5.65 3.47982 5.65 5.30493C5.65 5.69955 5.75 6.09417 5.85 6.43946C5.7 6.39013 5.5 6.39013 5.35 6.39013C3.5 6.39013 2 7.86996 2 9.69507C2 11.4709 3.45 12.9507 5.25 13H13.85C16.05 12.7534 17.8 11.0269 17.8 8.8565Z" fill="url(#paint3_linear)"/>
-</g>
-</g>
-</g>
-</g>
-<defs>
-<linearGradient id="paint0_linear" x1="7.75262" y1="13.6128" x2="7.05495" y2="17.13" gradientUnits="userSpaceOnUse">
-<stop stop-color="#0094FF"/>
-<stop offset="1" stop-color="#FA00FF"/>
-</linearGradient>
-<linearGradient id="paint1_linear" x1="9.46721" y1="13.0391" x2="8.76957" y2="16.5562" gradientUnits="userSpaceOnUse">
-<stop stop-color="#0094FF"/>
-<stop offset="1" stop-color="#FA00FF"/>
-</linearGradient>
-<linearGradient id="paint2_linear" x1="10.9735" y1="13.7948" x2="10.2758" y2="17.312" gradientUnits="userSpaceOnUse">
-<stop stop-color="#0094FF"/>
-<stop offset="1" stop-color="#FA00FF"/>
-</linearGradient>
-<linearGradient id="paint3_linear" x1="5.95" y1="4.46637" x2="15.3318" y2="13.2253" gradientUnits="userSpaceOnUse">
-<stop stop-color="#3D26A7"/>
-<stop offset="0.723868" stop-color="#1B0D57"/>
-</linearGradient>
-</defs>
+
+
+
+
+    <style type="text/css">
+        <![CDATA[
+        /*
+** RAIN
+*/
+        @keyframes am-weather-rain {
+            0% {
+                stroke-dashoffset: 0;
+            }
+
+            100% {
+                stroke-dashoffset: -100;
+            }
+        }
+
+        .am-weather-rain-1 {
+            -webkit-animation-name: am-weather-rain;
+            -moz-animation-name: am-weather-rain;
+            -ms-animation-name: am-weather-rain;
+            animation-name: am-weather-rain;
+            -webkit-animation-duration: 9s;
+            -moz-animation-duration: 9s;
+            -ms-animation-duration: 9s;
+            animation-duration: 9s;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-timing-function: linear;
+            -ms-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation-iteration-count: infinite;
+            -ms-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+        }
+
+        .am-weather-rain-2 {
+            -webkit-animation-name: am-weather-rain;
+            -moz-animation-name: am-weather-rain;
+            -ms-animation-name: am-weather-rain;
+            animation-name: am-weather-rain;
+            -webkit-animation-delay: 0.25s;
+            -moz-animation-delay: 0.25s;
+            -ms-animation-delay: 0.25s;
+            animation-delay: 0.25s;
+            -webkit-animation-duration: 9s;
+            -moz-animation-duration: 9s;
+            -ms-animation-duration: 9s;
+            animation-duration: 9s;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-timing-function: linear;
+            -ms-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation-iteration-count: infinite;
+            -ms-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+        }
+        ]]>
+    </style>
+    <g id="09n">
+        <g id="rainy-3">
+            <g id="rain-drops">
+                <path id="Vector_2" d="M7.55566 13.5737L7 17.1191" stroke="url(#paint0_linear)" stroke-linecap="round"
+                    stroke-dasharray="3.6 3.6" class="am-weather-rain-1" />
+                <path id="Vector_3" d="M9.27025 13L8.71461 16.5453" stroke="url(#paint1_linear)" stroke-linecap="round"
+                    stroke-dasharray="3.6 3.6" class="am-weather-rain-2" />
+                <path id="Vector_4" d="M10.7765 13.7557L10.2209 17.3011" stroke="url(#paint2_linear)"
+                    stroke-linecap="round" stroke-dasharray="3.6 3.6" class="am-weather-rain-1" />
+            </g>
+            <g id="cloud-Group">
+                <g id="cloud">
+                    <path id="Vector"
+                        d="M17.8 8.8565C17.8 6.58744 15.95 4.81166 13.7 4.81166C13.2 4.81166 12.75 4.91031 12.3 5.0583C12.15 3.38117 10.75 2 9 2C7.15 2 5.65 3.47982 5.65 5.30493C5.65 5.69955 5.75 6.09417 5.85 6.43946C5.7 6.39013 5.5 6.39013 5.35 6.39013C3.5 6.39013 2 7.86996 2 9.69507C2 11.4709 3.45 12.9507 5.25 13H13.85C16.05 12.7534 17.8 11.0269 17.8 8.8565Z"
+                        fill="url(#paint3_linear)" />
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="paint0_linear" x1="7.75262" y1="13.6128" x2="7.05495" y2="17.13"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="1" stop-color="#FA00FF" />
+        </linearGradient>
+        <linearGradient id="paint1_linear" x1="9.46721" y1="13.0391" x2="8.76957" y2="16.5562"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="1" stop-color="#FA00FF" />
+        </linearGradient>
+        <linearGradient id="paint2_linear" x1="10.9735" y1="13.7948" x2="10.2758" y2="17.312"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="1" stop-color="#FA00FF" />
+        </linearGradient>
+        <linearGradient id="paint3_linear" x1="5.95" y1="4.46637" x2="15.3318" y2="13.2253"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3D26A7" />
+            <stop offset="0.723868" stop-color="#1B0D57" />
+        </linearGradient>
+    </defs>
 </svg>

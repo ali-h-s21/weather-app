@@ -90,18 +90,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     <g id="rainy-3">
         <g id="cloud-Group">
             <g id="cloud">
@@ -114,9 +102,9 @@
             <path id="Vector_2" d="M10.8871 26.2902L9.49795 34.1687" stroke="url(#paint1_linear)" stroke-width="2"
                 stroke-linecap="round" stroke-dasharray="4 4" class="am-weather-rain-1" />
             <path id="Vector_3" d="M15.1736 25.0152L13.7845 32.8937" stroke="url(#paint2_linear)" stroke-width="2"
-                stroke-linecap="round" stroke-dasharray="4 4" class="am-weather-rain-2"/>
+                stroke-linecap="round" stroke-dasharray="4 4" class="am-weather-rain-2" />
             <path id="Vector_4" d="M18.9392 26.6946L17.5501 34.5731" stroke="url(#paint3_linear)" stroke-width="2"
-                stroke-linecap="round" stroke-dasharray="4 4"  class="am-weather-rain-1"/>
+                stroke-linecap="round" stroke-dasharray="4 4" class="am-weather-rain-1" />
         </g>
     </g>
 </svg>

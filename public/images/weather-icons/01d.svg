@@ -1,7 +1,66 @@
 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+
+
+
+
+    <style type="text/css">
+        <![CDATA[
+        /*
+** SUN
+*/
+        @keyframes am-weather-sun {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        .am-weather-sun {
+            transform-origin: center;
+            transform-box: fill-box;
+            -webkit-animation-name: am-weather-sun;
+            -moz-animation-name: am-weather-sun;
+            -ms-animation-name: am-weather-sun;
+            animation-name: am-weather-sun;
+            -webkit-animation-duration: 9s;
+            -moz-animation-duration: 9s;
+            -ms-animation-duration: 9s;
+            animation-duration: 9s;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-timing-function: linear;
+            -ms-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation-iteration-count: infinite;
+            -ms-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+
+
+        }
+        ]]>
+    </style>
+
+
+
+
+
+
+
+
+
     <g id="01d">
         <g id="day">
-            <g id="sun-box">
+            <g id="sun-box" class="am-weather-sun">
                 <g id="sun-shine">
                     <g id="Group">
                         <path id="Vector" d="M12.5 19.7115V22.1154" stroke="url(#paint0_linear)" stroke-width="2"

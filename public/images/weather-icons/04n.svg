@@ -1,28 +1,67 @@
-<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g id="04n">
-        <g id="cloudy">
-            <g id="Group">
-                <g id="back-cloud">
-                    <path id="Vector"
-                        d="M13.26 8.37107C13.26 7.09 12.15 6.08742 10.8 6.08742C10.5 6.08742 10.23 6.14312 9.96 6.22667C9.87 5.27979 9.03 4.5 7.98 4.5C6.87 4.5 5.97 5.33548 5.97 6.36591C5.97 6.58871 6.03 6.8115 6.09 7.00645C6 6.9786 5.88 6.9786 5.79 6.9786C4.68 6.9786 3.78 7.81408 3.78 8.84451C3.78 9.8471 4.65 10.6826 5.73 10.7105H10.89C12.21 10.5712 13.26 9.59645 13.26 8.37107Z"
-                        fill="url(#paint0_linear)" />
+<svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        @keyframes am-weather-cloud-1 {
+
+            0%,
+            to {
+                -webkit-transform: translate(-4px, 0);
+                -moz-transform: translate(-4px, 0);
+                -ms-transform: translate(-4px, 0);
+                transform: translate(-4px, 0)
+            }
+
+            50% {
+                -webkit-transform: translate(6px, 0);
+                -moz-transform: translate(6px, 0);
+                -ms-transform: translate(6px, 0);
+                transform: translate(6px, 0)
+            }
+        }
+
+        @keyframes am-weather-cloud-2 {
+
+            0%,
+            to {
+                -webkit-transform: translate(0, 0);
+                -moz-transform: translate(0, 0);
+                -ms-transform: translate(0, 0);
+                transform: translate(0, 0)
+            }
+
+            50% {
+                -webkit-transform: translate(2px, 0);
+                -moz-transform: translate(2px, 0);
+                -ms-transform: translate(2px, 0);
+                transform: translate(2px, 0)
+            }
+        }
+    </style>
+    <g id="prefix__04n">
+        <g id="prefix__cloudy">
+            <g id="prefix__Group">
+                <g id="prefix__back-cloud"
+                    style="-webkit-animation-name:am-weather-cloud-1;-moz-animation-name:am-weather-cloud-1;animation-name:am-weather-cloud-1;-webkit-animation-duration:6s;-moz-animation-duration:6s;animation-duration:6s;-webkit-animation-timing-function:linear;-moz-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-iteration-count:infinite;-moz-animation-iteration-count:infinite;animation-iteration-count:infinite">
+                    <path id="prefix__Vector"
+                        d="M13.26 8.371c0-1.281-1.11-2.284-2.46-2.284-.3 0-.57.056-.84.14C9.87 5.28 9.03 4.5 7.98 4.5c-1.11 0-2.01.835-2.01 1.866 0 .223.06.446.12.64-.09-.027-.21-.027-.3-.027-1.11 0-2.01.835-2.01 1.866 0 1.002.87 1.838 1.95 1.865h5.16c1.32-.139 2.37-1.114 2.37-2.339z"
+                        fill="url(#prefix__paint0_linear)" />
                 </g>
-                <g id="front-cloud">
-                    <path id="Vector_2"
-                        d="M17.8 13.551C17.8 11.4159 15.95 9.74499 13.7 9.74499C13.2 9.74499 12.75 9.83779 12.3 9.97704C12.15 8.39892 10.75 7.09927 9 7.09927C7.15 7.09927 5.65 8.49175 5.65 10.2091C5.65 10.5804 5.75 10.9518 5.85 11.2767C5.7 11.2303 5.5 11.2303 5.35 11.2303C3.5 11.2303 2 12.6227 2 14.3401C2 16.0111 3.45 17.4036 5.25 17.45H13.85C16.05 17.2179 17.8 15.5933 17.8 13.551Z"
-                        fill="url(#paint1_linear)" />
+                <g id="prefix__front-cloud"
+                    style="-webkit-animation-name:am-weather-cloud-2;-moz-animation-name:am-weather-cloud-2;animation-name:am-weather-cloud-2;-webkit-animation-duration:3s;-moz-animation-duration:3s;animation-duration:3s;-webkit-animation-timing-function:linear;-moz-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-iteration-count:infinite;-moz-animation-iteration-count:infinite;animation-iteration-count:infinite">
+                    <path id="prefix__Vector_2"
+                        d="M17.8 13.551c0-2.135-1.85-3.806-4.1-3.806-.5 0-.95.093-1.4.232-.15-1.578-1.55-2.878-3.3-2.878-1.85 0-3.35 1.393-3.35 3.11 0 .371.1.743.2 1.068-.15-.047-.35-.047-.5-.047C3.5 11.23 2 12.623 2 14.34c0 1.671 1.45 3.064 3.25 3.11h8.6c2.2-.232 3.95-1.857 3.95-3.899z"
+                        fill="url(#prefix__paint1_linear)" />
                 </g>
             </g>
         </g>
     </g>
     <defs>
-        <linearGradient id="paint0_linear" x1="6" y1="6.25" x2="11.25" y2="10.5" gradientUnits="userSpaceOnUse">
+        <linearGradient id="prefix__paint0_linear" x1="6" y1="6.25" x2="11.25" y2="10.5" gradientUnits="userSpaceOnUse">
             <stop stop-color="#3D26A7" />
-            <stop offset="0.548468" stop-color="#1B0D57" />
+            <stop offset=".548" stop-color="#1B0D57" />
         </linearGradient>
-        <linearGradient id="paint1_linear" x1="6.25" y1="9.49999" x2="14.5" y2="17" gradientUnits="userSpaceOnUse">
+        <linearGradient id="prefix__paint1_linear" x1="6.25" y1="9.5" x2="14.5" y2="17" gradientUnits="userSpaceOnUse">
             <stop stop-color="#3D26A7" />
-            <stop offset="0.691275" stop-color="#1B0D57" />
+            <stop offset=".691" stop-color="#1B0D57" />
         </linearGradient>
     </defs>
 </svg>
