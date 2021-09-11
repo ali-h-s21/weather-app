@@ -1,5 +1,4 @@
 .details-section {
-  //   background-color: lightblue;
   padding: 0 1rem 2rem 1rem;
   margin-top: 2rem;
   & h6 {
@@ -14,7 +13,6 @@
 
   & .details {
     display: grid;
-    // grid-template-columns: repeat(3, 1fr);
     grid-template-columns: repeat(auto-fit, 1fr);
     gap: 10px;
   }
@@ -33,18 +31,23 @@
     }
 
     & .card-heading {
-      //   background-color: lightcoral;
       width: 100%;
       display: flex;
       justify-content: space-between;
       align-items: center;
       margin-bottom: 1rem;
       & img {
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
       }
       & .detail-title {
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+        color: #a6c2e2;
       }
+    }
+    & .detail-content {
+      font-size: 1.2rem;
     }
   }
 }

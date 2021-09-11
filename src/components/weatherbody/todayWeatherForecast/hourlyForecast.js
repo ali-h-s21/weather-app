@@ -6,7 +6,7 @@ import LoadingEle from "../../loadingEle.js";
 const HourlyForecast = () => {
   const { hourlyData, isloading } = useContext(WeatherData);
   // dummy array to loop throught it
-  const loadingElements = Array.from(Array(10).keys());
+  const loadingElements = Array.from(Array(20).keys());
 
   return (
     <div className="today-forecast-section">

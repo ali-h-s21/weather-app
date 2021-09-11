@@ -1,6 +1,14 @@
-@media (max-width: 500px) {
-  body {
+@media (max-width: 650px) {
+  .header {
+    & .logo {
+      width: 5rem;
+    }
+
+    & .wrapper {
+      width: 6rem;
+    }
   }
+
   .weather-header {
     border-radius: 1rem;
     & .location {

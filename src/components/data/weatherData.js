@@ -1,4 +1,5 @@
 import React, { createContext, useState, useEffect } from "react";
+import { useContext } from "react/cjs/react.development";
 import {
   fromattTodayWeather,
   formattHourlyForecast,
@@ -14,6 +15,7 @@ export function WeatherDataProvider(props) {
   const [hourlyData, setHourlyData] = useState("");
   const [city, setCity] = useState("london");
   const [units, setUnits] = useState("metric");
+  const [showSearchError, setShowSearchError] = useState(false);
 
   useEffect(() => {
     async function fetchTodayWeather() {
@@ -46,7 +48,7 @@ export function WeatherDataProvider(props) {
           setIsLoading(false);
         } else {
           setCity(localStorage.getItem("lastSucssesfullSearch"));
-          alert("city NOT found");
+          setShowSearchError(true);
         }
       } catch (err) {
         console.error(err);
@@ -67,6 +69,8 @@ export function WeatherDataProvider(props) {
         setCity,
         units,
         setUnits,
+        setShowSearchError,
+        showSearchError,
       }}
     >
       {props.children}

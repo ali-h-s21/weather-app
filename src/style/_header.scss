@@ -5,13 +5,16 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: relative;
 
   & form {
     width: 50%;
     display: flex;
     justify-content: center;
     .search {
-      width: 70%;
+      width: 100%;
+      max-width: 30rem;
+
       position: relative;
       display: flex;
 

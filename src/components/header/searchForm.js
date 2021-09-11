@@ -1,11 +1,13 @@
 import { WeatherData } from "../data/weatherData";
 import { useContext, useState } from "react";
 
-function SearchForm() {
+function SearchForm({ setCity, showSearchError, isErrorShown }) {
   const [searchValue, setSearchValue] = useState();
-  const { setCity } = useContext(WeatherData);
 
   function onTypeHanler(e) {
+    if (isErrorShown) {
+      showSearchError(false);
+    }
     setSearchValue(e.target.value);
   }
 

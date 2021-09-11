@@ -23,8 +23,8 @@ export function fromattTodayWeather(data, coord, units) {
       condition: data.weather[0].main,
     },
     details: {
-      feels_like: `${Math.round(data.feels_like)} °`,
       description: data.weather[0].description,
+      feels_like: `${Math.round(data.feels_like)} °`,
       wind: `${
         units === "imperial"
           ? `${data.wind_speed} miles/h`

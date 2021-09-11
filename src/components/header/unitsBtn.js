@@ -1,11 +1,6 @@
-import { useContext } from "react";
-import { WeatherData } from "../data/weatherData";
-
-const UnitsBtn = () => {
-  const { units, setUnits } = useContext(WeatherData);
-
+const UnitsBtn = ({ units, toggleUnits }) => {
   function switchUnitHandler(e) {
-    setUnits(e.target.value);
+    toggleUnits(e.target.value);
   }
 
   return (
