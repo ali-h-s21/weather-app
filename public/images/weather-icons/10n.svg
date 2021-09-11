@@ -58,6 +58,11 @@
             -ms-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
         }
+
+        .margin {
+            padding: 20px;
+            fill: white;
+        }
         ]]>
     </style>
 
@@ -68,7 +73,7 @@
 
 
     <g id="10n">
-        <g id="main-group">
+        <g id="main-group" class="margin">
             <g id="rain-drops">
                 <path id="Vector_2" d="M9.55566 15.5737L9 19.1191" stroke="url(#paint0_linear)" stroke-linecap="round"
                     stroke-dasharray="3.6 3.6" class="am-weather-rain-1" />
