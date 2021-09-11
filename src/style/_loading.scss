@@ -25,7 +25,6 @@
   @include loading-box(3rem, 4rem, margin-right, 0, 0.1rem);
 }
 .loading-day-forecast {
-  height: 0rem;
   @include loading-box(100%, 0rem, margin-bottom, 0.5rem, 0.5rem);
 }
 .loading-weather-detail {
