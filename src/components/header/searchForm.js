@@ -26,7 +26,7 @@ function SearchForm({ setCity, showSearchError, isErrorShown }) {
           onChange={onTypeHanler}
         />
         <button type="submit" className="searchButton">
-          <img src="/images/icons/search-icon.svg" alt="" />
+          <img src="./images/icons/search-icon.svg" alt="" />
         </button>
       </div>
     </form>
