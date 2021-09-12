@@ -1,5 +1,4 @@
-import { WeatherData } from "../data/weatherData";
-import { useContext, useState } from "react";
+import { useState } from "react";
 
 function SearchForm({ setCity, showSearchError, isErrorShown }) {
   const [searchValue, setSearchValue] = useState();
