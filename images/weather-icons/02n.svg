@@ -1,0 +1,200 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+
+
+
+
+
+    <style type="text/css">
+        <![CDATA[
+        /*
+** MOON
+*/
+        @keyframes am-weather-moon {
+            0% {
+                -webkit-transform: rotate(-3deg);
+                -moz-transform: rotate(-3deg);
+                -ms-transform: rotate(-3deg);
+                transform: rotate(-3deg);
+            }
+
+            50% {
+                -webkit-transform: rotate(4deg);
+                -moz-transform: rotate(4deg);
+                -ms-transform: rotate(4deg);
+                transform: rotate(4deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(-3deg);
+                -moz-transform: rotate(-3deg);
+                -ms-transform: rotate(-3deg);
+                transform: rotate(-3deg);
+            }
+        }
+
+        .am-weather-moon {
+            -webkit-animation-name: am-weather-moon;
+            -moz-animation-name: am-weather-moon;
+            -ms-animation-name: am-weather-moon;
+            animation-name: am-weather-moon;
+            -webkit-animation-duration: 2.5s;
+            -moz-animation-duration: 2.5s;
+            -ms-animation-duration: 2.5s;
+            animation-duration: 2.5s;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-timing-function: linear;
+            -ms-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation-iteration-count: infinite;
+            -ms-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            -webkit-transform-origin: 12.5px 15.15px 0;
+            /* TODO FF CENTER ISSUE */
+            -moz-transform-origin: 12.5px 15.15px 0;
+            /* TODO FF CENTER ISSUE */
+            -ms-transform-origin: 12.5px 15.15px 0;
+            /* TODO FF CENTER ISSUE */
+            transform-origin: 12.5px 15.15px 0;
+            /* TODO FF CENTER ISSUE */
+        }
+
+        @keyframes am-weather-moon-star-1 {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .am-weather-moon-star-1 {
+            -webkit-animation-name: am-weather-moon-star-1;
+            -moz-animation-name: am-weather-moon-star-1;
+            -ms-animation-name: am-weather-moon-star-1;
+            animation-name: am-weather-moon-star-1;
+            -webkit-animation-delay: 1s;
+            -moz-animation-delay: 1s;
+            -ms-animation-delay: 1s;
+            animation-delay: 1s;
+            -webkit-animation-duration: 2s;
+            -moz-animation-duration: 2s;
+            -ms-animation-duration: 2s;
+            animation-duration: 2s;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-timing-function: linear;
+            -ms-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation-iteration-count: infinite;
+            -ms-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes am-weather-moon-star-2 {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+
+            }
+        }
+
+        .am-weather-moon-star-2 {
+            -webkit-animation-name: am-weather-moon-star-2;
+            -moz-animation-name: am-weather-moon-star-2;
+            -ms-animation-name: am-weather-moon-star-2;
+            animation-name: am-weather-moon-star-2;
+            -webkit-animation-delay: 1.8s;
+            -moz-animation-delay: 1.8s;
+            -ms-animation-delay: 1.8s;
+            animation-delay: 1.8s;
+            -webkit-animation-duration: 3s;
+            -moz-animation-duration: 3s;
+            -ms-animation-duration: 3s;
+            animation-duration: 3s;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-timing-function: linear;
+            -ms-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation-iteration-count: infinite;
+            -ms-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+        }
+
+        /* / ** EASING */
+        .am-weather-easing-ease-in-out {
+            -webkit-animation-timing-function: ease-in-out;
+            -moz-animation-timing-function: ease-in-out;
+            -ms-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+        }
+
+        */
+        ]]>
+    </style>
+
+
+
+
+
+
+    <g id="02n" clip-path="url(#clip0)">
+        <g id="main-group">
+            <g id="Group-1">
+                <g id="moon-Group">
+                    <g id="star2" class="am-weather-moon-star-1">
+                        <path id="Vector"
+                            d="M9.65502 5.33447L10.0921 5.66364L10.6199 5.69881L10.2896 6.1357L10.2172 6.67804L9.81651 6.33364L9.27348 6.26216L9.619 5.86158L9.65502 5.33447Z"
+                            fill="url(#paint0_linear)" />
+                    </g>
+                    <g id="star-1" class="am-weather-moon-star-2">
+                        <path id="Vector_2"
+                            d="M18.4524 5.92056L18.8894 6.24973L19.4173 6.2849L19.0869 6.72178L19.0145 7.26414L18.6139 6.91972L18.0708 6.84826L18.4164 6.44767L18.4524 5.92056Z"
+                            fill="url(#paint1_linear)" />
+                    </g>
+                    <g id="moon" class="am-weather-moon">
+                        <path id="Vector_3"
+                            d="M15.5083 7.87776C14.9462 6.53418 15.1878 5.06766 16.006 3.95726C15.3234 3.85884 14.644 3.97242 13.989 4.24649C11.9875 5.08391 11.0337 7.40315 11.8693 9.40034C12.705 11.3975 15.0262 12.3464 17.0277 11.509C17.6827 11.2349 18.2254 10.7945 18.6497 10.2757C17.2997 10.1151 16.0705 9.22132 15.5083 7.87776Z"
+                            fill="url(#paint2_linear)" />
+                    </g>
+                </g>
+                <g id="cloud">
+                    <path id="Vector_4"
+                        d="M15.5816 12.4471C15.5816 10.1838 13.7571 8.41242 11.5383 8.41242C11.0452 8.41242 10.6014 8.51082 10.1576 8.65845C10.0097 6.98551 8.62904 5.6078 6.90322 5.6078C5.0788 5.6078 3.59954 7.0839 3.59954 8.90445C3.59954 9.29808 3.69815 9.6917 3.79677 10.0361C3.64885 9.98694 3.45161 9.98694 3.30369 9.98694C1.47926 9.98694 0 11.4631 0 13.2836C0 15.0549 1.42995 16.531 3.20507 16.5802H11.6862C13.8558 16.3342 15.5816 14.6121 15.5816 12.4471Z"
+                        fill="url(#paint3_linear)" />
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="paint0_linear" x1="9.57317" y1="5.8505" x2="10.3623" y2="6.45712"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="0.928725" stop-color="#FA00FF" />
+        </linearGradient>
+        <linearGradient id="paint1_linear" x1="18.2254" y1="6.37899" x2="19.29" y2="7.00419"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="0.8834" stop-color="#FA00FF" />
+        </linearGradient>
+        <linearGradient id="paint2_linear" x1="12.2508" y1="5.53314" x2="18.1558" y2="10.6906"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="1" stop-color="#FA00FF" />
+        </linearGradient>
+        <linearGradient id="paint3_linear" x1="12.1975" y1="8.62963" x2="2.19754" y2="15.7901"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3D26A7" />
+            <stop offset="1" stop-color="#1B0D57" />
+        </linearGradient>
+        <clipPath id="clip0">
+            <rect width="20" height="20" fill="white" />
+        </clipPath>
+    </defs>
+</svg>

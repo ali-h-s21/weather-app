@@ -1,0 +1,153 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+
+
+
+
+
+
+    <style type="text/css">
+        <![CDATA[
+        /*
+** SUN
+*/
+        @keyframes am-weather-sun {
+            0% {
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        .am-weather-sun {
+            transform-origin: center;
+            transform-box: fill-box;
+            -webkit-animation-name: am-weather-sun;
+            -moz-animation-name: am-weather-sun;
+            -ms-animation-name: am-weather-sun;
+            animation-name: am-weather-sun;
+            -webkit-animation-duration: 9s;
+            -moz-animation-duration: 9s;
+            -ms-animation-duration: 9s;
+            animation-duration: 9s;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-timing-function: linear;
+            -ms-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation-iteration-count: infinite;
+            -ms-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+
+
+        }
+        ]]>
+    </style>
+    <g id="02d">
+        <g id="main-group">
+            <g id="Group-1">
+                <g id="sun" class="am-weather-sun">
+                    <g id="sun-shine">
+                        <g id="Group">
+                            <path id="Vector" d="M6.96979 12.9021V14.3167" stroke="url(#paint0_linear)"
+                                stroke-linecap="round" />
+                        </g>
+                        <g id="Group_2">
+                            <path id="Vector_2" d="M3.80379 11.6591L2.74847 12.6594" stroke="url(#paint1_linear)"
+                                stroke-linecap="round" />
+                        </g>
+                        <g id="Group_3">
+                            <path id="Vector_3" d="M2.49244 8.65833H1" stroke="url(#paint2_linear)"
+                                stroke-linecap="round" />
+                        </g>
+                        <g id="Group_4">
+                            <path id="Vector_4" d="M3.80379 5.65755L2.74847 4.65729" stroke="url(#paint3_linear)"
+                                stroke-linecap="round" />
+                        </g>
+                        <g id="Group_5">
+                            <path id="Vector_5" d="M6.9698 4.41458V3" stroke="url(#paint4_linear)"
+                                stroke-linecap="round" />
+                        </g>
+                        <g id="Group_6">
+                            <path id="Vector_6" d="M10.1357 5.65755L11.191 4.65729" stroke="url(#paint5_linear)"
+                                stroke-linecap="round" />
+                        </g>
+                        <g id="Group_7">
+                            <path id="Vector_7" d="M11.447 8.65833H12.9395" stroke="url(#paint6_linear)"
+                                stroke-linecap="round" />
+                        </g>
+                        <g id="Group_8">
+                            <path id="Vector_8" d="M10.1357 11.6591L11.191 12.6594" stroke="url(#paint7_linear)"
+                                stroke-linecap="round" />
+                        </g>
+                    </g>
+                    <path id="Vector_9"
+                        d="M6.96977 11.016C8.34351 11.016 9.45718 9.9604 9.45718 8.65833C9.45718 7.35625 8.34351 6.30069 6.96977 6.30069C5.59602 6.30069 4.48236 7.35625 4.48236 8.65833C4.48236 9.9604 5.59602 11.016 6.96977 11.016Z"
+                        fill="url(#paint8_linear)" />
+                </g>
+                <g id="cloud" class="am-weather-cloud-2">
+                    <path id="Vector_10"
+                        d="M19.75 12.6192C19.75 10.4501 17.9093 8.75263 15.6707 8.75263C15.1732 8.75263 14.7255 8.84694 14.2777 8.9884C14.1285 7.3852 12.7355 6.06493 10.9943 6.06493C9.15366 6.06493 7.66121 7.47951 7.66121 9.22416C7.66121 9.60138 7.76071 9.97861 7.8602 10.3087C7.71096 10.2615 7.51197 10.2615 7.36272 10.2615C5.52204 10.2615 4.0296 11.6761 4.0296 13.4208C4.0296 15.1183 5.47229 16.5328 7.26323 16.58H15.8199C18.0088 16.3442 19.75 14.6939 19.75 12.6192Z"
+                        fill="url(#paint9_linear)" />
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="paint0_linear" x1="6.84122" y1="12.677" x2="8.80316" y2="13.9916"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EC09FF" />
+            <stop offset="1" stop-color="#0094FF" />
+        </linearGradient>
+        <linearGradient id="paint1_linear" x1="2.61279" y1="11.5" x2="4.11279" y2="13" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EC09FF" />
+            <stop offset="1" stop-color="#0094FF" />
+        </linearGradient>
+        <linearGradient id="paint2_linear" x1="0.808116" y1="8.49923" x2="2.22185" y2="10.4991"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EC09FF" />
+            <stop offset="1" stop-color="#0094FF" />
+        </linearGradient>
+        <linearGradient id="paint3_linear" x1="2.61279" y1="4.49815" x2="4.11281" y2="5.99817"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EC09FF" />
+            <stop offset="1" stop-color="#0094FF" />
+        </linearGradient>
+        <linearGradient id="paint4_linear" x1="6.84123" y1="2.77495" x2="8.80318" y2="4.08954"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EC09FF" />
+            <stop offset="1" stop-color="#0094FF" />
+        </linearGradient>
+        <linearGradient id="paint5_linear" x1="10" y1="4.49815" x2="11.5" y2="5.99815" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EC09FF" />
+            <stop offset="1" stop-color="#0094FF" />
+        </linearGradient>
+        <linearGradient id="paint6_linear" x1="11.2551" y1="8.49923" x2="12.6689" y2="10.4991"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EC09FF" />
+            <stop offset="1" stop-color="#0094FF" />
+        </linearGradient>
+        <linearGradient id="paint7_linear" x1="10" y1="11.5" x2="11.5" y2="13" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#EC09FF" />
+            <stop offset="1" stop-color="#0094FF" />
+        </linearGradient>
+        <linearGradient id="paint8_linear" x1="5.47732" y1="7.00798" x2="8.26962" y2="10.6905"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0094FF" />
+            <stop offset="1" stop-color="#FA00FF" />
+        </linearGradient>
+        <linearGradient id="paint9_linear" x1="7.46222" y1="9.60138" x2="16.2704" y2="17.1363"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0.0925032" stop-color="#3D26A7" />
+            <stop offset="0.893632" stop-color="#1B0D57" />
+        </linearGradient>
+    </defs>
+</svg>
